@@ -150,8 +150,8 @@ $(document).ready(function() {
 //oPTION bOX
 		ctx.globalAlpha = 0.5;
 		ctx.fillStyle= "#33FF00";	
-		ctx.fillRect( w/2 - 500,  h-800, 150, 100)		
-		ctx.globalAlpha = 1
+		ctx.fillRect( w/2 - 500,  h-800, 150, 100);		
+		ctx.globalAlpha = 1;
 
 	
 		if(Seizure == true){
@@ -161,17 +161,17 @@ $(document).ready(function() {
 			ctx.font="20px Comic Sans MS"
 			ctx.fillText ( "Options", w/2 - 470, h-725);  
 		} else {
-			ctx.fillStyle= "black"
-			ctx.font="50px Comic Sans MS"
+			ctx.fillStyle= "black";
+			ctx.font="50px Comic Sans MS";
 			ctx.fillText ( "EATT", w/2 - 70, h-130); 		
-			ctx.font="20px Comic Sans MS"
+			ctx.font="20px Comic Sans MS";
 			ctx.fillText ( "Options", w/2 - 470, h-725);  
 		}
 	
 
 	ctx.fillText ( "Options", w/2 - 470, h-725);  
-	ctx.fillStyle= "White"		
-	ctx.font="10px Comic Sans MS"
+	ctx.fillStyle= "White";	
+	ctx.font="10px Comic Sans MS";
  	ctx.fillText("("+ mx+","+Math.floor(my) + ")", 920, 20);
 
 
